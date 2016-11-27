@@ -4,5 +4,5 @@ function getName() {
     var adjectives = ["Organic", "Authentic", "Vintage", "Natural"]
 
     // Combines first and last names
-    document.getElementById('store').innerHTML = adjectives[Math.floor(Math.random() * nouns.length)] + " " + lastNames[Math.floor(Math.random() * lastNames.length)];
+    document.getElementById('store').innerHTML = adjectives[Math.floor(Math.random() * adjectives.length)] + " " + nouns[Math.floor(Math.random() * nouns.length)];
 }
