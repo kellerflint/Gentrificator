@@ -2,22 +2,18 @@
 <html>
 
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
     <title>Gentrificator</title>
   </head>
 
   <body>
-    <!-->Displays gentrified name of stores
-    <-->
-      <p id='store'></p>
+    <div class="buttonHolder">
+      <button type="button" onclick="getName()">Gentrificator</button>
+    </div>
+    <!-- Displays gentrified name of stores -->
+    <p id='store'></p>
 
-      <script>
-        // Test Data
-        var firstNames = ["Cycle", "Juice", "Babies"]
-        var lastNames = ["Organic", "Soul", "Authentic"]
-
-        // Combines first and last names
-        document.getElementById('store').innerHTML = firstNames[Math.floor(Math.random() * firstNames.length)] + " " + lastNames[Math.floor(Math.random() * lastNames.length)];
-      </script>
   </body>
 
 </html>
