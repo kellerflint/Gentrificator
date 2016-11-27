@@ -1,2 +1,0 @@
-Adjective + Noun
-Adjective + Noun + "for" + noun
