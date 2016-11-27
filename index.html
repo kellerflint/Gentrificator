@@ -6,13 +6,18 @@
   </head>
 
   <body>
-    <p id='store'></p>
+    <!-->Displays gentrified name of stores
+    <-->
+      <p id='store'></p>
 
-    <script>
-      var firstNames = ["Cycle", "Juice", "Babies"]
-      var lastNames = ["Organic", "Soul", "Authentic"]
-      document.getElementById('store').innerHTML = firstNames[Math.floor(Math.random() * firstNames.length)] + " " + lastNames[Math.floor(Math.random() * lastNames.length)];
-    </script>
+      <script>
+        // Test Data
+        var firstNames = ["Cycle", "Juice", "Babies"]
+        var lastNames = ["Organic", "Soul", "Authentic"]
+
+        // Combines first and last names
+        document.getElementById('store').innerHTML = firstNames[Math.floor(Math.random() * firstNames.length)] + " " + lastNames[Math.floor(Math.random() * lastNames.length)];
+      </script>
   </body>
 
 </html>
